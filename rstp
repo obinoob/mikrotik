@@ -1,0 +1,13 @@
+### RSTP ###
+
+root-port       - Active port towards root bridge        - Port with traffic
+alternate-port  - Alternative port towards root bridge   - Port without traffic
+backup-port     - Door facing out from the root bridge   - Port without traffic
+designated-port - Active port facing out from the root bridge - Forwarding traffic
+disabled-port   - Disabed or inactive port - Port without traffic
+
+### IEEE 802.1W pattern ###
+
+# the beneath values must be converted to hexadecimal
+0, 4096, 8192, 12288, 16384, 20480, 24576, 28672, 32768, 36864, 40960, 45056, 49152, 53248, 57344, 61440
+# as an example: 0x01000, 0x02000, 0x03000, 0x04000 ... 
